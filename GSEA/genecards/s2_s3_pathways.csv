@@ -1,0 +1,48 @@
+﻿Score,SuperPath Name,# SuperPath Total Genes,# SuperPath Matched Genes,Matched Genes (Symbols),Evidence URL
+26.31,CCL18 Signaling Pathway,96,7,"MMP2, SMAD3, CXCL8, SNAI1, CDH1, CDH2, BMI1",https://pathcards.genecards.org/card/ccl18_signaling_pathway
+20.50,CKAP4 Signaling Pathway Map,108,6,"CCN2, SMAD3, TNF, SNAI1, CDH1, BMI1",https://pathcards.genecards.org/card/ckap4_signaling_pathway_map
+19.82,Lung Fibrosis,63,5,"MMP2, CCN2, TNF, CXCL8, GREM1",https://pathcards.genecards.org/card/lung_fibrosis
+17.76,ERK Signaling,1185,14,"CCN2, RND2, SOX6, SOX9, SMAD3, TCF4, TNF, JUNB, CXCL8, SEPTIN4, SNAI1, CDH1, FZD2, CDH2",https://pathcards.genecards.org/card/erk_signaling
+17.21,Epithelial to Mesenchymal Transition in Colorectal Cancer,161,6,"MMP2, SMAD3, SNAI1, CDH1, FZD2, CDH2",https://pathcards.genecards.org/card/epithelial_to_mesenchymal_transition_in_colorectal_cancer
+17.01,Colorectal Cancer Metastasis,165,6,"MMP2, SMAD3, TCF4, TNF, CDH1, FZD2",https://pathcards.genecards.org/card/colorectal_cancer_metastasis
+16.64,Nervous System Development,1269,14,"MMP2, SOX9, SMAD3, TCF4, PRNP, TNF, POU3F3, CLASP1, PLXNA3, SNAI1, CDH1, CDH2, GREM1, HOXD3",https://pathcards.genecards.org/card/nervous_system_development
+16.54,Neural Crest Differentiation,101,5,"SOX9, TCF4, SNAI1, CDH1, CDH2",https://pathcards.genecards.org/card/neural_crest_differentiation
+16.20,SARS-CoV-2 Innate Immunity Evasion and Cell-specific Immune Response,50,4,"TBK1, SMAD3, TNF, CXCL8",https://pathcards.genecards.org/card/sars-cov-2_innate_immunity_evasion_and_cell-specific_immune_response
+15.88,NRP1-triggered Signaling Pathways in Pancreatic Cancer,53,4,"MMP2, CCN2, SMAD3, SNAI1",https://pathcards.genecards.org/card/nrp1-triggered_signaling_pathways_in_pancreatic_cancer
+14.17,Regulation of Nuclear Beta Catenin Signaling and Target Gene Transcription,72,4,"MMP2, TCF4, CXCL8, CDH1",https://pathcards.genecards.org/card/regulation_of_nuclear_beta_catenin_signaling_and_target_gene_transcription
+13.99,Cells and Molecules Involved in Local Acute Inflammatory Response,4,2,"TNF, CXCL8",https://pathcards.genecards.org/card/cells_and_molecules_involved_in_local_acute_inflammatory_response
+13.94,Burn Wound Healing,75,4,"MMP2, SMAD3, TNF, CXCL8",https://pathcards.genecards.org/card/burn_wound_healing
+13.84,Signal Transduction,2597,19,"ADORA2B, MMP2, RND2, TBK1, SOX6, SOX9, SMAD3, RNF41, TNF, JUNB, CXCL8, CLASP1, SNAI1, CDH1, FZD2, BMI1, GABRB1, ADCYAP1, PTAFR",https://pathcards.genecards.org/card/signal_transduction
+13.74,"Oligodendrocyte Specification and Differentiation, Leading to Myelin Components For CNS",28,3,"SOX6, SOX9, TNF",https://pathcards.genecards.org/card/oligodendrocyte_specification_and_differentiation_leading_to_myelin_components_for_cns
+13.45,Amb2 Integrin Signaling,30,3,"MMP2, CCN2, TNF",https://pathcards.genecards.org/card/amb2_integrin_signaling
+13.45,Sudden Infant Death Syndrome (SIDS) Susceptibility Pathways,159,5,"SLC9A3, TNF, CXCL8, SNAP25, ADCYAP1",https://pathcards.genecards.org/card/sudden_infant_death_syndrome_(sids)_susceptibility_pathways
+13.02,Sertoli-Sertoli Cell Junction Dynamics,393,7,"RND2, GOSR1, TNF, JUNB, CDH1, CDH2, SNAP25",https://pathcards.genecards.org/card/sertoli-sertoli_cell_junction_dynamics
+12.95,PAK Pathway,686,9,"CCN2, RND2, SMAD3, TCF4, TNF, CXCL8, SNAI1, CDH1, CDH2",https://pathcards.genecards.org/card/pak_pathway
+12.80,Validated Transcriptional Targets of AP1 Family Members Fra1 and Fra2,35,3,"MMP2, JUNB, CXCL8",https://pathcards.genecards.org/card/validated_transcriptional_targets_of_ap1_family_members_fra1_and_fra2
+12.54,Wnt / Hedgehog / Notch,182,5,"CCN2, TBK1, SMAD3, SNAI1, GREM1",https://pathcards.genecards.org/card/wnt__hedgehog__notch
+12.23,Bladder Cancer,40,3,"MMP2, CXCL8, CDH1",https://pathcards.genecards.org/card/bladder_cancer
+12.09,Senescence and Autophagy in Cancer,105,4,"SMAD3, CXCL8, IGFBP5, BMI1",https://pathcards.genecards.org/card/senescence_and_autophagy_in_cancer
+11.94,Interleukin-4 and Interleukin-13 Signaling,108,4,"MMP2, TNF, JUNB, CXCL8",https://pathcards.genecards.org/card/interleukin-4_and_interleukin-13_signaling
+11.94,IL-17 Family Signaling Pathways,108,4,"TBK1, TNF, JUNB, CXCL8",https://pathcards.genecards.org/card/il-17_family_signaling_pathways
+11.74,Gastrin Signaling Pathway,112,4,"SLC9A3, TCF4, CXCL8, CDH1",https://pathcards.genecards.org/card/gastrin_signaling_pathway
+11.56,"Role of Hypoxia, Angiogenesis, and FGF Pathway in OA Chondrocyte Hypertrophy",47,3,"CCN2, SOX9, JUNB",https://pathcards.genecards.org/card/role_of_hypoxia_angiogenesis_and_fgf_pathway_in_oa_chondrocyte_hypertrophy
+11.56,Interleukin-10 Signaling,47,3,"TNF, CXCL8, PTAFR",https://pathcards.genecards.org/card/interleukin-10_signaling
+11.47,Photodynamic Therapy-induced NF-kB Survival Signaling,48,3,"MMP2, TNF, CXCL8",https://pathcards.genecards.org/card/photodynamic_therapy-induced_nf-kb_survival_signaling
+11.38,Canonical Wnt Pathway,49,3,"TCF4, CDH1, CDH2",https://pathcards.genecards.org/card/canonical_wnt_pathway
+11.23,Adhesion,123,4,"MMP2, CCN2, CDH1, CDH2",https://pathcards.genecards.org/card/adhesion
+11.23,G12-G13 in Cellular Signaling,123,4,"SLC9A3, CDH1, FZD2, CDH2",https://pathcards.genecards.org/card/g12-g13_in_cellular_signaling
+11.22,Calcineurin-regulated NFAT-dependent Transcription in Lymphocytes,51,3,"TNF, JUNB, CXCL8",https://pathcards.genecards.org/card/calcineurin-regulated_nfat-dependent_transcription_in_lymphocytes
+10.81,Toll-Like Receptor Signaling Pathways,133,4,"TBK1, TNF, JUNB, CXCL8",https://pathcards.genecards.org/card/toll-like_receptor_signaling_pathways
+10.75,ATF-2 Transcription Factor Network,57,3,"MMP2, JUNB, CXCL8",https://pathcards.genecards.org/card/atf-2_transcription_factor_network
+10.40,TGF-beta Signaling in Thyroid Cells For Epithelial-mesenchymal Transition,14,2,"SMAD3, SNAI1",https://pathcards.genecards.org/card/tgf-beta_signaling_in_thyroid_cells_for_epithelial-mesenchymal_transition
+10.34,Endochondral Ossification,63,3,"SOX6, SOX9, SLC38A2",https://pathcards.genecards.org/card/endochondral_ossification
+10.02,Loss of Function of TGFBR2 in Cancer,16,2,"CCN2, SMAD3",https://pathcards.genecards.org/card/loss_of_function_of_tgfbr2_in_cancer
+9.85,Canonical and Non-canonical TGF-B Signaling,17,2,"SMAD3, GREM1",https://pathcards.genecards.org/card/canonical_and_non-canonical_tgf-b_signaling
+9.69,Mammary Gland Development Pathway - Embryonic Development (Stage 1 of 4),18,2,"TNF, CDH1",https://pathcards.genecards.org/card/mammary_gland_development_pathway_-_embryonic_development_(stage_1_of_4)
+9.63,Toll-like Receptor Signaling Pathway,285,5,"TBK1, SMAD3, RNF41, TNF, CXCL8",https://pathcards.genecards.org/card/toll-like_receptor_signaling_pathway
+9.53,Overview of Nanoparticle Effects,19,2,"TNF, CXCL8",https://pathcards.genecards.org/card/overview_of_nanoparticle_effects
+9.35,Validated Targets of C-MYC Transcriptional Activation,80,3,"SMAD3, SNAI1, BMI1",https://pathcards.genecards.org/card/validated_targets_of_c-myc_transcriptional_activation
+9.28,Cytokine Signaling in Immune System,787,8,"MMP2, TBK1, SMAD3, TNF, JUNB, CXCL8, SNAP25, PTAFR",https://pathcards.genecards.org/card/cytokine_signaling_in_immune_system
+9.25,Interleukin-37 Signaling,21,2,"TBK1, SMAD3",https://pathcards.genecards.org/card/interleukin-37_signaling
+8.99,Ebstein-Barr Virus LMP1 Signaling,23,2,"TNF, CXCL8",https://pathcards.genecards.org/card/ebstein-barr_virus_lmp1_signaling
+8.91,Angiogenesis (CST),89,3,"MMP2, GREM1, EGLN1",https://pathcards.genecards.org/card/angiogenesis_(cst)

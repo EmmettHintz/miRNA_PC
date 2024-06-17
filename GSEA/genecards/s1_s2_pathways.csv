@@ -1,0 +1,21 @@
+﻿Score,SuperPath Name,# SuperPath Total Genes,# SuperPath Matched Genes,Matched Genes (Symbols),Evidence URL
+14.16,LPA Receptor Mediated Events,47,4,"MMP2, MMP9, PIK3CB, EGFR",https://pathcards.genecards.org/card/lpa_receptor_mediated_events
+10.83,Development EGFR Signaling Pathway,154,5,"MMP2, MMP9, PIK3CB, RHOC, EGFR",https://pathcards.genecards.org/card/development_egfr_signaling_pathway
+10.46,Bladder Cancer,40,3,"MMP2, MMP9, EGFR",https://pathcards.genecards.org/card/bladder_cancer
+9.95,Sweet Taste Signaling,365,7,"PTK7, TXK, STK35, PLA2G12A, MYO1F, PDE4C, KCNK6",https://pathcards.genecards.org/card/sweet_taste_signaling
+9.30,Metabolism,2127,19,"B3GAT2, NQO2, TYRP1, ISCA2, FAHD1, ENTPD4, PLA2G12A, GOT1, OLAH, PIK3CB, TNFAIP8L1, SHPK, CYB5A, SNAP25, CYP1A1, RPS16, MAN2B2, HS3ST1, BHMT2",https://pathcards.genecards.org/card/metabolism
+9.30,NRP1-triggered Signaling Pathways in Pancreatic Cancer,53,3,"MMP2, MMP9, EGFR",https://pathcards.genecards.org/card/nrp1-triggered_signaling_pathways_in_pancreatic_cancer
+8.76,Development Dopamine D2 Receptor Transactivation of EGFR,128,4,"MMP2, MMP9, PIK3CB, EGFR",https://pathcards.genecards.org/card/development_dopamine_d2_receptor_transactivation_of_egfr
+8.73,Cell Adhesion_ECM Remodeling,61,3,"MMP2, MMP9, EGFR",https://pathcards.genecards.org/card/cell_adhesion_ecm_remodeling
+8.65,"Erlotinib Pathway, Pharmacokinetics",17,2,"CYP1A1, EGFR",https://pathcards.genecards.org/card/erlotinib_pathway_pharmacokinetics
+8.59,Lung Fibrosis,63,3,"MMP2, MMP9, TERT",https://pathcards.genecards.org/card/lung_fibrosis
+8.34,Telomere Extension By Telomerase,19,2,"TNKS2, TERT",https://pathcards.genecards.org/card/telomere_extension_by_telomerase
+8.06,Regulation of Nuclear Beta Catenin Signaling and Target Gene Transcription,72,3,"MMP2, MMP9, TERT",https://pathcards.genecards.org/card/regulation_of_nuclear_beta_catenin_signaling_and_target_gene_transcription
+8.00,Head and Neck Squamous Cell Carcinoma,73,3,"PIK3CB, TERT, EGFR",https://pathcards.genecards.org/card/head_and_neck_squamous_cell_carcinoma
+7.93,2-oxobutanoate Degradation I,22,2,"GOT1, BHMT2",https://pathcards.genecards.org/card/2-oxobutanoate_degradation_i
+7.93,Extracellular Vesicles in The Crosstalk of Cardiac Cells,22,2,"MMP9, EGFR",https://pathcards.genecards.org/card/extracellular_vesicles_in_the_crosstalk_of_cardiac_cells
+7.81,A-beta Plaque Formation and APP Metabolism,23,2,"MMP2, MMP9",https://pathcards.genecards.org/card/a-beta_plaque_formation_and_app_metabolism
+7.69,Plasma Membrane Estrogen Receptor Signaling,24,2,"MMP2, MMP9",https://pathcards.genecards.org/card/plasma_membrane_estrogen_receptor_signaling
+7.47,Colorectal Cancer Metastasis,165,4,"MMP2, MMP9, EGFR, GRK7",https://pathcards.genecards.org/card/colorectal_cancer_metastasis
+7.07,Sulfur Amino Acid Metabolism,30,2,"GOT1, BHMT2",https://pathcards.genecards.org/card/sulfur_amino_acid_metabolism
+7.07,Aryl Hydrocarbon Receptor Pathway,30,2,"CYP1A1, EGFR",https://pathcards.genecards.org/card/aryl_hydrocarbon_receptor_pathway
