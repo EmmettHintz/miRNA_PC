@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="width" attr.type="long" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d2" for="node" attr.name="label" attr.type="string" />
+  <key id="d1" for="node" attr.name="size" attr.type="long" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="4783-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">170</data>
+    </node>
+    <node id="1307-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">2400</data>
+    </node>
+    <node id="3184-5p">
+      <data key="d0">miRNA</data>
+      <data key="d1">1850</data>
+    </node>
+    <node id="3178">
+      <data key="d0">miRNA</data>
+      <data key="d1">750</data>
+    </node>
+    <node id="6857-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">1110</data>
+    </node>
+    <node id="4749-5p">
+      <data key="d0">miRNA</data>
+      <data key="d1">830</data>
+    </node>
+    <node id="4462">
+      <data key="d0">miRNA</data>
+      <data key="d1">200</data>
+    </node>
+    <node id="6722-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">1810</data>
+    </node>
+    <node id="3130-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">830</data>
+    </node>
+    <node id="1229-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">2070</data>
+    </node>
+    <node id="4511">
+      <data key="d0">miRNA</data>
+      <data key="d1">840</data>
+    </node>
+    <node id="6715b-5p">
+      <data key="d0">miRNA</data>
+      <data key="d1">1380</data>
+    </node>
+    <node id="139-3p">
+      <data key="d0">miRNA</data>
+      <data key="d1">1050</data>
+    </node>
+    <node id="3975">
+      <data key="d0">miRNA</data>
+      <data key="d1">800</data>
+    </node>
+    <node id="Prostate Cancer">
+      <data key="d0">disease</data>
+      <data key="d2">Prostate Cancer</data>
+      <data key="d1">2000</data>
+    </node>
+    <node id="Retinitis Pigmentosa">
+      <data key="d0">disease</data>
+      <data key="d2">Retinitis Pigmentosa</data>
+      <data key="d1">2000</data>
+    </node>
+    <node id="Autism">
+      <data key="d0">disease</data>
+      <data key="d2">Autism</data>
+      <data key="d1">2000</data>
+    </node>
+    <edge source="4783-3p" target="Retinitis Pigmentosa">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+    <edge source="1307-3p" target="Prostate Cancer">
+      <data key="d3">11</data>
+      <data key="d4">11</data>
+    </edge>
+    <edge source="1307-3p" target="Retinitis Pigmentosa">
+      <data key="d3">13</data>
+      <data key="d4">13</data>
+    </edge>
+    <edge source="1307-3p" target="Autism">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="3184-5p" target="Prostate Cancer">
+      <data key="d3">13</data>
+      <data key="d4">13</data>
+    </edge>
+    <edge source="3184-5p" target="Retinitis Pigmentosa">
+      <data key="d3">9</data>
+      <data key="d4">9</data>
+    </edge>
+    <edge source="3184-5p" target="Autism">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="3178" target="Prostate Cancer">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="3178" target="Retinitis Pigmentosa">
+      <data key="d3">4</data>
+      <data key="d4">4</data>
+    </edge>
+    <edge source="3178" target="Autism">
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+    </edge>
+    <edge source="6857-3p" target="Prostate Cancer">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="6857-3p" target="Retinitis Pigmentosa">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="6857-3p" target="Autism">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+    <edge source="4749-5p" target="Prostate Cancer">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="4749-5p" target="Retinitis Pigmentosa">
+      <data key="d3">4</data>
+      <data key="d4">4</data>
+    </edge>
+    <edge source="4749-5p" target="Autism">
+      <data key="d3">7</data>
+      <data key="d4">7</data>
+    </edge>
+    <edge source="4462" target="Prostate Cancer">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+    <edge source="4462" target="Retinitis Pigmentosa">
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+    </edge>
+    <edge source="4462" target="Autism">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+    <edge source="6722-3p" target="Prostate Cancer">
+      <data key="d3">18</data>
+      <data key="d4">18</data>
+    </edge>
+    <edge source="6722-3p" target="Retinitis Pigmentosa">
+      <data key="d3">14</data>
+      <data key="d4">14</data>
+    </edge>
+    <edge source="6722-3p" target="Autism">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="3130-3p" target="Prostate Cancer">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="3130-3p" target="Retinitis Pigmentosa">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="3130-3p" target="Autism">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+    <edge source="1229-3p" target="Prostate Cancer">
+      <data key="d3">15</data>
+      <data key="d4">15</data>
+    </edge>
+    <edge source="1229-3p" target="Retinitis Pigmentosa">
+      <data key="d3">14</data>
+      <data key="d4">14</data>
+    </edge>
+    <edge source="1229-3p" target="Autism">
+      <data key="d3">13</data>
+      <data key="d4">13</data>
+    </edge>
+    <edge source="4511" target="Prostate Cancer">
+      <data key="d3">4</data>
+      <data key="d4">4</data>
+    </edge>
+    <edge source="4511" target="Retinitis Pigmentosa">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="4511" target="Autism">
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+    </edge>
+    <edge source="6715b-5p" target="Prostate Cancer">
+      <data key="d3">5</data>
+      <data key="d4">5</data>
+    </edge>
+    <edge source="6715b-5p" target="Retinitis Pigmentosa">
+      <data key="d3">9</data>
+      <data key="d4">9</data>
+    </edge>
+    <edge source="6715b-5p" target="Autism">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="139-3p" target="Prostate Cancer">
+      <data key="d3">12</data>
+      <data key="d4">12</data>
+    </edge>
+    <edge source="139-3p" target="Retinitis Pigmentosa">
+      <data key="d3">6</data>
+      <data key="d4">6</data>
+    </edge>
+    <edge source="139-3p" target="Autism">
+      <data key="d3">2</data>
+      <data key="d4">2</data>
+    </edge>
+    <edge source="3975" target="Prostate Cancer">
+      <data key="d3">4</data>
+      <data key="d4">4</data>
+    </edge>
+    <edge source="3975" target="Retinitis Pigmentosa">
+      <data key="d3">4</data>
+      <data key="d4">4</data>
+    </edge>
+    <edge source="3975" target="Autism">
+      <data key="d3">1</data>
+      <data key="d4">1</data>
+    </edge>
+  </graph>
+</graphml>
