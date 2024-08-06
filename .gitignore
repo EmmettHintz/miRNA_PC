@@ -3,4 +3,11 @@ data/GSE211692_normalized.txt
 data/series_matrix.txt
 data
 bar_charts
-.Rproj.user
+.Rproj
+stage_clustering_GSEA
+stage_gsea
+GSEA
+disease_gsea
+disease_clustering_GSEA
+disease_classification
+
