@@ -20,7 +20,7 @@ This repository contains a comprehensive computational pipeline for analyzing mi
 - **Platform**: miRNA expression profiling
 - **Sample Groups**:
   - Control samples (no cancer): 5,643 samples
-  - Benign prostate disease samples: 230 samples  
+  - Benign prostate disease samples: 230 samples
   - Prostate cancer samples by stage:
     - Stage 1, Stage 2, Stage 3, Stage 4
 - **Total Features**: 2,570 miRNA expression measurements
@@ -35,11 +35,11 @@ miRNA_PC/
 ├── data_preprocessing/                 # Initial data exploration and sample categorization
 │   ├── prostate_cancer_exploration.ipynb
 │   └── series_matrix_processing.ipynb
-├── 
+├──
 ├── STAGE-BASED ANALYSIS PIPELINE:
 ├── stage_classification/              # Machine learning models for stage progression
 │   ├── final_ctl_s1.ipynb            # Control vs Stage 1 classification
-│   ├── final_s1_s2.ipynb             # Stage 1 vs Stage 2 classification  
+│   ├── final_s1_s2.ipynb             # Stage 1 vs Stage 2 classification
 │   ├── final_s2_s3.ipynb             # Stage 2 vs Stage 3 classification
 │   ├── final_s3_s4.ipynb             # Stage 3 vs Stage 4 classification
 │   └── *.pkl                         # Trained models (SVM, XGBoost, Random Forest)
@@ -56,7 +56,7 @@ miRNA_PC/
 │   ├── miRNA/                        # miRNA clustering results
 │   ├── genes/                        # Gene clustering results
 │   └── gene_cards/                   # GeneCards clustering integration
-├── 
+├──
 ├── DISEASE-BASED ANALYSIS PIPELINE:
 ├── disease_classification/            # Machine learning for disease states
 │   ├── final_ctl_b.ipynb            # Control vs Benign classification
@@ -75,7 +75,7 @@ miRNA_PC/
 │   ├── miRNA/                        # Disease miRNA clusters
 │   ├── genes/                        # Disease gene clusters
 │   └── gene_cards/                   # Disease GeneCards clusters
-├── 
+├──
 ├── INTEGRATED ANALYSIS:
 ├── GSEA/                              # Core GSEA analysis infrastructure
 │   ├── miRNA/                        # All miRNA GSEA results (50-feature sets)
@@ -118,11 +118,13 @@ miRNA_PC/
 Our research employs a comprehensive multi-modal approach with two parallel analysis pipelines:
 
 #### 1. Stage-Based Analysis Pipeline
+
 - **Classification**: Control → Stage 1 → Stage 2 → Stage 3 → Stage 4 progression
 - **GSEA**: Stage-specific pathway enrichment analysis
 - **Clustering**: Hierarchical clustering of miRNAs across stages
 
-#### 2. Disease-Based Analysis Pipeline  
+#### 2. Disease-Based Analysis Pipeline
+
 - **Classification**: Control vs Benign vs Cancer comparisons
 - **GSEA**: Disease state-specific pathway analysis
 - **Clustering**: Disease-focused miRNA and gene clustering
@@ -136,13 +138,16 @@ We employed three complementary algorithms across both pipelines:
 - **Random Forest**: Ensemble method for robust predictions
 
 #### Comprehensive Classification Tasks:
+
 **Stage Progression Analysis:**
+
 1. Control vs Stage 1 (83 features identified)
-2. Stage 1 vs Stage 2 (29 features identified)  
+2. Stage 1 vs Stage 2 (29 features identified)
 3. Stage 2 vs Stage 3 (56 features identified)
 4. Stage 3 vs Stage 4 (52 features identified)
 
 **Disease State Analysis:**
+
 1. Control vs Benign disease (sampling ratio: 1:24.5)
 2. Control vs Cancer (comprehensive cancer detection)
 3. Benign vs Cancer (disease progression markers)
@@ -150,12 +155,14 @@ We employed three complementary algorithms across both pipelines:
 ### Gene Set Enrichment Analysis (GSEA)
 
 **Dual GSEA Framework:**
+
 - **miEAA Integration**: miRNA enrichment analysis with pathway annotation
 - **GeneCards Integration**: Comprehensive pathway mapping and scoring
 - **Progressive Analysis**: Tracking pathway changes across cancer progression
 - **Cross-Platform Validation**: Multiple enrichment databases
 
 **Key GSEA Results:**
+
 - **Cell Cycle, Mitotic**: 3.56 log fold change across progression
 - **Innate Immune System**: 3.56 log fold change
 - **RNA Polymerase I Promoter Opening**: 3.21 log fold change
@@ -164,26 +171,30 @@ We employed three complementary algorithms across both pipelines:
 ### Hierarchical Clustering Analysis
 
 **Multi-Level Clustering:**
+
 - **miRNA Clustering**: 62 unique miRNAs clustered into 4 functional groups
 - **Gene Clustering**: Disease and stage-specific gene clusters
 - **Pathway Clustering**: Functional pathway groupings
 - **Cross-Validation**: Silhouette analysis for optimal cluster numbers
 
 **Cluster Characteristics:**
+
 - **Cluster 1**: 5 miRNAs (early progression markers)
-- **Cluster 2**: 21 miRNAs (intermediate progression)  
+- **Cluster 2**: 21 miRNAs (intermediate progression)
 - **Cluster 3**: 6 miRNAs (aggressive progression)
 - **Cluster 4**: 18 miRNAs (late-stage markers)
 
 ### Network Analysis
 
 **Comprehensive Network Construction:**
+
 - **1,413 genes** with significant miRNA interactions
 - **14 top miRNAs** identified as network hubs
 - **Multi-target analysis**: miRNAs targeting multiple genes
 - **Pathway integration**: Network-pathway cross-analysis
 
 **Key Network Hubs:**
+
 - **FOXK1**: 4-5 miRNA interactions across comparisons
 - **BARHL1**: Multiple interaction networks
 - **ERC1**: 3-miRNA regulatory hub
@@ -201,12 +212,14 @@ We employed three complementary algorithms across both pipelines:
 ### miRNA Biomarker Discovery
 
 **Stage Progression Biomarkers:**
+
 - **hsa-miR-6769b-5p**: Present in multiple stage transitions
 - **hsa-miR-548h-5p**: Critical for S1→S2 and S2→S3→S4 progression
 - **hsa-miR-139-3p**: Key regulator in S1→S2 and S3→S4 transitions
 - **hsa-miR-6756-5p**: Links Control→S1 and S3→S4 stages
 
 **Disease State Biomarkers:**
+
 - **Control vs Cancer**: hsa-miR-1469, hsa-miR-5100 (critical differentiators)
 - **Progression Monitoring**: Stage-specific miRNA signatures identified
 - **Early Detection**: Control vs Stage 1 specific markers
@@ -214,6 +227,7 @@ We employed three complementary algorithms across both pipelines:
 ### Machine Learning Performance
 
 **Classification Accuracy:**
+
 - **Stage Transitions**: 85-95% cross-validation accuracy
 - **Disease States**: >90% accuracy for Control vs Cancer
 - **Feature Consensus**: High agreement across SVM, XGBoost, and Random Forest
@@ -222,12 +236,14 @@ We employed three complementary algorithms across both pipelines:
 ### Pathway Analysis Results
 
 **Progressive Pathway Changes:**
+
 - **Cell Cycle Regulation**: Strongest progressive alteration (3.56 log fold change)
 - **Immune System Dysregulation**: Significant immune pathway changes
 - **Metabolic Reprogramming**: Progressive metabolic pathway alterations
 - **Signal Transduction**: Comprehensive signaling pathway disruption
 
 **Network Integration:**
+
 - **1,413 target genes** identified with significant miRNA regulation
 - **Multi-pathway integration**: Single miRNAs affecting multiple pathways
 - **Hub gene identification**: Critical regulatory nodes in cancer progression
@@ -237,6 +253,7 @@ We employed three complementary algorithms across both pipelines:
 ### Diagnostic Applications
 
 **Early Detection Biomarkers:**
+
 1. **Control vs Stage 1**: 42 miRNA signature for early detection
 2. **Benign vs Malignant**: Specific miRNA patterns for differential diagnosis
 3. **Multi-modal validation**: Both stage and disease approaches confirm findings
@@ -244,6 +261,7 @@ We employed three complementary algorithms across both pipelines:
 ### Prognostic Applications
 
 **Stage Progression Monitoring:**
+
 1. **S1→S2 Transition**: 15 miRNA progression signature
 2. **S2→S3 Transition**: 28 miRNA advanced progression markers
 3. **S3→S4 Transition**: 26 miRNA late-stage progression indicators
@@ -251,6 +269,7 @@ We employed three complementary algorithms across both pipelines:
 ### Therapeutic Target Identification
 
 **Network-Based Targets:**
+
 - **FOXK1 regulatory network**: Multi-miRNA therapeutic target
 - **Cell cycle pathway**: Targetable pathway disruptions
 - **Immune modulation pathways**: Immunotherapy target identification
@@ -268,7 +287,7 @@ xgboost>=1.5.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
 
-# Specialized analysis packages  
+# Specialized analysis packages
 networkx>=2.6.0
 xlsxwriter>=3.0.0
 upsetplot>=0.4.0
@@ -288,6 +307,7 @@ gephi (external software for network visualization)
 ### Complete Analysis Pipeline
 
 #### 1. Data Preprocessing and Normalization
+
 ```bash
 # Initial data processing
 jupyter notebook data_preprocessing/prostate_cancer_exploration.ipynb
@@ -295,10 +315,11 @@ jupyter notebook data_normalzied.ipynb
 ```
 
 #### 2. Stage-Based Analysis Pipeline
+
 ```bash
 # Stage classification models
 jupyter notebook stage_classification/final_ctl_s1.ipynb
-jupyter notebook stage_classification/final_s1_s2.ipynb  
+jupyter notebook stage_classification/final_s1_s2.ipynb
 jupyter notebook stage_classification/final_s2_s3.ipynb
 jupyter notebook stage_classification/final_s3_s4.ipynb
 
@@ -312,7 +333,8 @@ jupyter notebook stage_clustering_GSEA/stage_clustering.ipynb
 jupyter notebook stage_clustering_GSEA/combined_clustering_gsea.ipynb
 ```
 
-#### 3. Disease-Based Analysis Pipeline  
+#### 3. Disease-Based Analysis Pipeline
+
 ```bash
 # Disease classification models
 jupyter notebook disease_classification/final_ctl_b.ipynb
@@ -328,6 +350,7 @@ jupyter notebook disease_clustering_GSEA/combined_clustering_gsea.ipynb
 ```
 
 #### 4. Network Analysis and Visualization
+
 ```bash
 # Network construction and analysis
 jupyter notebook network_figures/network_figure_2.ipynb
@@ -337,10 +360,11 @@ jupyter notebook GSEA/order_miRNA.ipynb
 ```
 
 #### 5. Results Generation and Visualization
+
 ```bash
 # Primary analysis figures
 jupyter notebook results\ \&\ figures/output/figure_1.ipynb
-jupyter notebook results\ \&\ figures/output/figure_2.ipynb  
+jupyter notebook results\ \&\ figures/output/figure_2.ipynb
 jupyter notebook results\ \&\ figures/output/figure_3.ipynb
 jupyter notebook results\ \&\ figures/output/figure_4.ipynb
 
@@ -356,16 +380,18 @@ jupyter notebook results\ \&\ figures/final_figures/biomarker_expression_heatmap
 ### Data Requirements
 
 **Primary Data:**
+
 - `GSE211692_processed.txt`: Main expression data (place in `data/source_data/`)
 
 **Generated Data Structure:**
+
 ```
 data/
 ├── source_data/
 │   └── GSE211692_processed.txt
 ├── control/
 │   └── control_samples.csv
-├── benign/  
+├── benign/
 │   └── benign_prostate_samples.csv
 └── cancer/
     ├── prostate_cancer_samples.csv
@@ -378,18 +404,21 @@ data/
 ## Output Files and Results
 
 ### Machine Learning Models
+
 - **18 trained classification models** (`.pkl` files)
 - **Cross-validation results** for all models
 - **Feature importance rankings** for each comparison
 - **Performance metrics** (accuracy, ROC-AUC, confusion matrices)
 
 ### GSEA Results
+
 - **miEAA pathway enrichment** results for all comparisons
 - **GeneCards pathway analysis** with scoring
 - **Progressive pathway visualization** data
 - **Clustered pathway matrices** (Excel format)
 
 ### Network Analysis Output
+
 - **miRNA-gene interaction networks** (GraphML format)
 - **1,413 target genes** with interaction data
 - **Network hub analysis** results
@@ -398,19 +427,22 @@ data/
 ### Publication-Ready Figures
 
 **Main Figures:**
+
 - **Figure 1**: Comprehensive differential expression analysis and volcano plots
 - **Figure 2**: Machine learning classification performance and ROC analysis
 - **Figure 3**: Pathway progression analysis and heatmaps
 - **Figure 4**: Network visualization and hub gene analysis
 
 **Supplementary Materials:**
+
 - **Supplementary Figure 1**: Additional validation and clustering analyses
 - **Supplementary Tables**: Complete feature lists and pathway data
 - **Performance Heatmaps**: Model comparison across all tasks
 
 ### Data Tables
+
 - `supplemental_table_1.xlsx`: Complete differential expression results
-- `top_20_miRNA_comparisons.xlsx`: Top features for each comparison  
+- `top_20_miRNA_comparisons.xlsx`: Top features for each comparison
 - `predictive_miRNA_genes.csv`: miRNA-gene interaction predictions (1,413 genes)
 - `table2.xlsx`: Summary statistics and model performance metrics
 - `miRNA Disease Association Search.xlsx`: Clinical disease associations
@@ -438,34 +470,18 @@ data/
 - **Analysis results**: Complete results provided in repository
 - **Model files**: All trained models available for validation and application
 
-## Citation
-
-If you use this analysis pipeline or findings in your research, please cite:
-
-```
-[Your Paper Title: Comprehensive miRNA Expression Analysis in Prostate Cancer Progression: A Multi-Modal Machine Learning and Network Biology Approach]
-[Authors]
-[Journal], [Year]
-DOI: [DOI if available]
-```
-
 ## Contact Information
 
 For questions regarding the analysis pipeline, data interpretation, or collaboration opportunities:
-- [Primary Author Email]
-- [Institution/Department]
-- [Additional Contact Information]
+
+- eahintz@colgate.edu
+- Colgate University Department of Computer Science
 
 ## Funding and Acknowledgments
 
 - Gene Expression Omnibus (GEO) for providing the GSE211692 dataset
 - Open-source community for machine learning and bioinformatics tools
-- [Funding sources and institutional support]
-- [Computational resources acknowledgments]
-
-## License
-
-This project is licensed under [License Type] - see the LICENSE file for details.
+- Funded by Colgate University
 
 ---
 
